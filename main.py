@@ -7,9 +7,9 @@ chrome_driver_path = "C:/Development/chromedriver.exe"
 driver = webdriver.Chrome(chrome_driver_path)
 driver.get("https://www.linkedin.com/jobs/search/?currentJobId=2506796570&f_AL=true&geoId=115702354&keywords=python%20developer&location=Chennai%2C%20Tamil%20Nadu%2C%20India")
 
-EMAIL = "shruthidakshinamurthy@gmail.com"
-PASSWORD = "Shruthilinkedin123"
-PHONE = "7530006226"
+EMAIL = "LINKEDIN EMAIL"
+PASSWORD = "LINKEDIN PASSWORD"
+PHONE = "YOUR PHONE NUMBER"
 
 signin_button = driver.find_element_by_link_text("Sign in")
 signin_button.click()
